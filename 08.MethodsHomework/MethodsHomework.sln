@@ -15,11 +15,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05.BiggerThanNeighbors", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06.FirstBiggerThenNeighbors", "FirstBiggerThenNeighbors\06.FirstBiggerThenNeighbors.csproj", "{5E3E1C3B-102C-4D64-98A8-D9F554D4D4D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseDigits", "ReverseDigits\ReverseDigits.csproj", "{E55EC9C0-B081-4603-980D-7A8B3F50C390}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07.ReverseDigits", "ReverseDigits\07.ReverseDigits.csproj", "{E55EC9C0-B081-4603-980D-7A8B3F50C390}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumNumberArrays", "SumNumberArrays\SumNumberArrays.csproj", "{9441AB65-DFBF-4FBE-93ED-DCEB3AB8436A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08.SumNumberArrays", "SumNumberArrays\08.SumNumberArrays.csproj", "{9441AB65-DFBF-4FBE-93ED-DCEB3AB8436A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MaxElementMethodSort", "MaxElementMethodSort\MaxElementMethodSort.csproj", "{47CE90F4-D8B2-48A7-9B9D-A84D77305753}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09.MaxElementMethodSort", "MaxElementMethodSort\09.MaxElementMethodSort.csproj", "{47CE90F4-D8B2-48A7-9B9D-A84D77305753}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

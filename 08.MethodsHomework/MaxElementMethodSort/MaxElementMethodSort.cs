@@ -23,22 +23,11 @@ namespace MaxElementMethodSort
             }
             return maxElement;
         }
-        static int[] SortArray(int[] array)
-        {
-            int[] sorted = new int[array.Length];
-            for (int j = array.Length - 1; j >= 0 ; j--)
-            {
-                int maxElement = FindMaxElementInArray(array, 0, j);
-                sorted[j] = maxElement;
-            }
-            return sorted;
-        }
-
+   
         static void Main()
         {
             int[] myArray = { 5, 2, 3, 45, 6, 78, 3, 5, 6, 7, 3, 67, 4, 2, 11, 1, 1, 1, 7 };
 
-            int[] myArraySorted = SortArray(myArray);
         }
     }
 }
