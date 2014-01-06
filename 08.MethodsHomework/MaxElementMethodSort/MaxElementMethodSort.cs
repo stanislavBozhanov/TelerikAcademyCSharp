@@ -23,11 +23,29 @@ namespace MaxElementMethodSort
             }
             return maxElement;
         }
+
+        static int[] SortWithMaxElement(int[] array)
+        {
+            for (int index = 0; index < array.Length; index++)
+            {
+                int maxElement = FindMaxElementInArray(array, 0, (array.Length - 1) - index);
+                int indexOfMaxElement = Array.IndexOf(array, maxElement);
+                Swap(array, (array.Length - 1) - index, indexOfMaxElement);
+            }
+            return array;
+        }
+
+        static void Swap(int[] array, int indexOne, int indexTwo)
+        {
+            int temp = array[indexOne];
+            array[indexOne] = array[indexTwo];
+            array[indexTwo] = temp;
+        }
    
         static void Main()
         {
             int[] myArray = { 5, 2, 3, 45, 6, 78, 3, 5, 6, 7, 3, 67, 4, 2, 11, 1, 1, 1, 7 };
-
+            SortWithMaxElement(myArray);
         }
     }
 }
